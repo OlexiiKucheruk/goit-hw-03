@@ -36,6 +36,9 @@ ol {
   padding-left: 0;
 }
 
+.conteiner {
+  width: 1200px;
+}
 /* DATA */
 .head {
   background-color: var(--white-color);
