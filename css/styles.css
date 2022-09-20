@@ -42,6 +42,8 @@ ol {
 
 .conteiner {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* DATA */
 .head {
