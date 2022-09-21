@@ -236,11 +236,14 @@ body {
   color: #2196f3;
 }
 
-.address {color: var(--white-color);}
+.address {
+  color: var(--white-color);
+}
 
-.project-item { width: 390px;
+.project-item {
+  width: 390px;
   height: 404px;
   border: 1px solid red;
   padding: 10px;
   box-sizing: border-box;
-  }
+}
