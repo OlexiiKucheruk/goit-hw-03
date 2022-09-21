@@ -192,13 +192,15 @@ body {
   line-height: calc(31 / 26);
   letter-spacing: 0.06em;
   color: var(--black-color);
-  
+  padding-left: 24px;
 }
 
 .project-description {
   font-size: 16px;
   line-height: calc(31 / 26);
   color: var(--primary-text-color);
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 
 .studio-white {
