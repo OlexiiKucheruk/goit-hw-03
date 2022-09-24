@@ -26,6 +26,7 @@ body {
   font-size: 14px;
 }
 
+/* DATA */
 .header {
   background-color: var(--white-color);
   font-weight: 500;
@@ -42,11 +43,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+/* Шапка */
 .link-header {
   text-decoration: none;
   color: var(--primary-text-color);
@@ -74,12 +75,11 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.link:hover {
-  color: var(--accent-color);
-}
+.link:hover,
 .link:focus {
   color: var(--accent-color);
 }
+
 .link-logo {
   margin-right: 93px;
   font-family: 'Raleway', sans-serif;
@@ -115,6 +115,7 @@ body {
   color: var(--accent-color);
 }
 
+/* Others */
 .hero {
   background-color: var(--second-background-color);
   flex-direction: column;
@@ -264,7 +265,7 @@ body {
   margin: var(--margin-none);
   margin-bottom: 4px;
 }
-.li-butttons + .li-butttons {
+.li-butttons {
   margin-left: 8px;
 }
 .button-portfolio {
@@ -313,10 +314,8 @@ body {
   margin-right: var(--column-gap);
   margin-bottom: var(--column-gap);
 }
-.net:nth-child(3n) {
-  margin-right: var(--margin-none);
-}
 
+/* Footer */
 .footer {
   background-color: var(--second-background-color);
   color: var(--white-color);
