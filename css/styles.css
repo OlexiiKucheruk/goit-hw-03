@@ -29,17 +29,18 @@ body {
 /* DATA */
 .header {
   background-color: var(--white-color);
-  font-weight: 500;
   border-bottom: solid 1px #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .head {
   display: flex;
+  align-items: center;
 }
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -59,12 +60,11 @@ body {
 .header-contacts {
   display: flex;
   padding: 0px;
-  margin: var(--margin-none);
   margin-left: auto;
+  font-weight: 500;
+  gap: 50px;
 }
-.contact {
-  margin-left: 50px;
-}
+
 .link-header:hover,
 .link-header:focus {
   color: var(--accent-color);
@@ -72,8 +72,7 @@ body {
 .link {
   text-decoration: none;
   color: inherit;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
 }
 .link:hover,
 .link:focus {
@@ -94,11 +93,13 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  
 }
 .navigation {
   display: flex;
   padding-left: 0px;
   margin: var(--margin-none);
+  font-weight: 500;
 }
 .nav-list:not(:last-child) {
   margin-right: 50px;
@@ -118,7 +119,6 @@ body {
 /* Others */
 .hero {
   background-color: var(--second-background-color);
-  flex-direction: column;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -265,9 +265,7 @@ body {
   margin: var(--margin-none);
   margin-bottom: 4px;
 }
-.li-butttons {
-  margin-left: 8px;
-}
+
 .button-portfolio {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -288,12 +286,12 @@ body {
 }
 .list-style-portfolio {
   list-style: none;
-
   display: flex;
   padding-left: 0px;
   justify-content: center;
   margin-bottom: var(--margin-none);
   margin-top: var(--margin-none);
+  gap: 8px;
 }
 .cards-product {
   padding: 20px 24px;
@@ -350,4 +348,9 @@ body {
 
 .footer-links:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.footer-links-hf:hover,
+.footer-links-hf:focus {
+  color: var(--accent-color);
 }
